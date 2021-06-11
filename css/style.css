@@ -1,0 +1,56 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Anonymous Pro", monospace;
+  margin-left: 115px;
+}
+
+.logo {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 40px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 20px;
+}
+
+.title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.nv {
+  font-size: 26px;
+  position: fixed;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title1 {
+  font-size: 70px;
+  color: #fce762;
+}
+
+.title2 {
+  font-size: 70px;
+  color: #fce762;
+  text-align: right;
+}
+.ux {
+  /* box-sizing: border-box; */
+  /* width: 607px;
+  height: 176; */
+}
+
+.hero {
+  text-align: center;
+  margin: 100px;
+  top: 50%;
+  /*  transform: translateY(-50%); */
+}
