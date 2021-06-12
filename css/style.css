@@ -1,56 +1,283 @@
 body {
+  margin: 0;
   background-color: #121212;
   color: #ffffff;
-  font-family: "Anonymous Pro", monospace;
-  margin-left: 115px;
 }
 
-.logo {
-  text-align: center;
-  box-sizing: border-box;
-  margin: 40px 0;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  margin-top: 20px;
-}
-
-.title {
+a {
+  text-decoration: none;
   color: #ffffff;
-  text-align: center;
 }
 
-.nv {
+.nav {
   font-size: 26px;
   position: fixed;
   text-align: left;
   top: 50%;
   transform: translateY(-50%);
+  /* text-decoration: none; */
 }
 
-.title1 {
+.nav ul {
+  list-style: none;
+  font-family: "Anonymous Pro", monospace;
+  margin-left: 115px;
+}
+.nav ul li {
+  margin-bottom: 37px;
+}
+
+.li1 {
+  margin-bottom: -37px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 100%;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.hero {
+  /* position: absolute; */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container .hero .left {
+  width: 50%;
+  float: left;
+  text-align: center;
+  /* top: 50%;
+  transform: translateY(30%); */
+}
+
+.container .hero .right {
+  width: 50%;
+  /* height: 513px; */
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  /* top: 50%; */
+  /* transform: translateY(25%); */
+}
+.container .hero .right img {
+  width: 548px;
+  height: 511px;
+  padding-left: 50px;
+}
+
+.container .hero .left {
+  font-size: 70px;
+}
+
+.container .hero .left .title1 {
   font-size: 70px;
   color: #fce762;
+  text-align: left;
 }
 
-.title2 {
+.container .hero .left .title2 {
   font-size: 70px;
   color: #fce762;
   text-align: right;
 }
-.ux {
-  /* box-sizing: border-box; */
-  /* width: 607px;
-  height: 176; */
+
+.container .hero .left .title3 {
+  font-size: 60px;
+  color: #121212;
+  text-align: left;
 }
 
-.hero {
+.tlimg {
+  font-weight: bold;
+  background-image: url("../img/title_hero_image.png");
+  /* background-size: contain; */
+  box-sizing: border-box;
+  width: 100%;
+  height: 176px;
+  padding-top: 30px;
+  padding-left: 20px;
+  /* padding: 30px; */
+}
+
+.clear {
+  clear: both;
+}
+
+.container .knowme {
+  bottom: 0px;
   text-align: center;
-  margin: 100px;
-  top: 50%;
-  /*  transform: translateY(-50%); */
+}
+
+.container .aboutme .title4 {
+  font-size: 40px;
+  color: #fce762;
+}
+
+.container .aboutme .paragraph {
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container .aboutme .subclasses {
+  width: 100%;
+}
+
+.container .aboutme .subclasses .left {
+  width: 50%;
+  float: left;
+  /* padding-right: 50px; */
+}
+.container .aboutme .subclasses p {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container .aboutme .subclasses .left .title8 {
+  font-size: 40px;
+  color: #fce762;
+}
+.container .aboutme .subclasses .right {
+  width: 50%;
+  float: right;
+  font-size: 40px;
+  color: #fce762;
+  padding-left: 50px;
+}
+
+.container .aboutme .subclasses .right p {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container .aboutme {
+  max-height: 100vh;
+}
+
+.container .skills {
+  width: 100%;
+}
+
+.container .skills .title5 {
+  font-size: 40px;
+  font-family: "Anonymous One", monospace;
+  color: #fce762;
+}
+
+.container .skills .content {
+  width: 100%;
+}
+
+.container .skills .content .designer,
+.container .skills .content .dev,
+.container .skills .content .photo {
+  width: 30%;
+  float: left;
+  border: 3px solid #fce762;
+  box-sizing: border-box;
+  color: #fce762;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container .skills .content .dev {
+  margin: 0 5%;
+}
+
+.container .skills .content img {
+  display: block;
+  height: 260px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+.container .skills .content .designer,
+.container .skills .content .photo {
+  padding: 30px;
+  height: 360px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.container .title6 {
+  font-size: 40px;
+  color: #fce762;
+}
+
+.container .projects {
+  width: 100%;
+}
+
+.container .projects .leftpro {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.container .projects .rightpro {
+  width: 50%;
+  float: right;
+  box-sizing: border-box;
+  /* margin-left: 5%; */
+}
+
+.container .projects .leftpro img,
+.container .projects .rightpro img {
+  width: 580px;
+  height: 367px;
+}
+
+.container .title7 {
+  font-size: 40px;
+  color: #fce762;
+  font-weight: bold;
+}
+
+.container .contact {
+  width: 100%;
+}
+
+.container .contact .emailsform {
+  width: 50%;
+  float: left;
+}
+
+.container .contact .socialntw {
+  width: 50%;
+  float: right;
+  font-size: 50px;
+  color: #fce762;
+  /* padding-left: 2px; */
+}
+
+.container .contact .socialntw i {
+  margin-left: 70px;
+}
+.container .contact .emailsform .mail {
+  color: #ffffff;
+  font-size: 30px;
+}
+.container .contact .emailsform .pemail {
+  color: #fce762;
+  font-size: 40px;
+}
+.container .contact .emailsform button {
+  border: 3px solid #fce762;
+  font-size: 40px;
+  color: #fce762;
+  background-color: #121212;
+  width: 604px;
+  height: 102px;
+  margin-top: 20px;
 }
