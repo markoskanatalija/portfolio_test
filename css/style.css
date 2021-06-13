@@ -91,9 +91,9 @@ body {
   clear: both;
 }
 
-.hero .container {
+/* .hero .container {
   transform: translateY(5%);
-}
+} */
 
 .container .find_out {
   font-family: "Anonymous Pro", monospace;
@@ -125,13 +125,16 @@ body {
 }
 
 .ct3 {
-  width: 900px;
+  /* width: 900px; */
   height: 100vh;
 }
 
 .container .aboutme {
   width: 100%;
   padding: 25% 0;
+}
+.ct1 {
+  height: 90vh;
 }
 
 .container .aboutme .title_aboutme {
