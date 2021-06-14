@@ -1,0 +1,768 @@
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.nav {
+  font-size: 26px;
+  position: fixed;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container {
+  position: relative;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav ul li {
+  list-style: none;
+  font-family: "Anonymous Pro", monospace;
+  margin-left: 5%;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero .container .left {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.hero .container .right {
+  float: right;
+  width: 50%;
+}
+
+.hero .container .left .name {
+  text-align: left;
+  font-family: "Anonymous Pro", monospace;
+  color: #fce762;
+  font-size: 70px;
+  font-weight: bold;
+}
+.hero .container .left .last {
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  color: #fce762;
+  font-size: 70px;
+  font-weight: bold;
+  padding-left: 30%;
+}
+.hero .container .left .title {
+  width: 100%;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  color: #121212;
+  font-size: 40px;
+  font-weight: bold;
+  background-image: url("../img/title_hero_image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 100px;
+}
+.hero .container .right img {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.clear {
+  clear: both;
+}
+
+.div .find_out {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  text-align: center;
+  color: #fce762;
+  margin-top: 6%;
+}
+
+.find_out a:hover {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10%;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #fce762;
+  margin: 10px 0;
+}
+
+.container .aboutme .left {
+  float: left;
+  width: 50%;
+}
+
+.container .aboutme .right {
+  float: right;
+  width: 50%;
+}
+
+.ct3 {
+  height: 100vh;
+}
+
+.container .aboutme {
+  width: 100%;
+  padding: 25% 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ct1 {
+  height: 100vh;
+}
+
+.container .aboutme .title_aboutme {
+  font-family: "Anonymous Pro", monospace;
+  color: #fce762;
+  font-size: 50px;
+}
+
+.container .aboutme .text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 30px;
+}
+
+.container .aboutme .Subtitle1 {
+  margin-left: -10px;
+  color: #fce762;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 40px;
+}
+.container .aboutme .txt {
+  font-size: 30px;
+  margin-left: -10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-right: 5%;
+}
+
+.container .aboutme .Subtitle {
+  font-size: 40px;
+  margin-left: -10px;
+  color: #fce762;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.line1 {
+  width: 100%;
+  height: 1px;
+  background-color: #fce762;
+  margin: 10px 0;
+}
+
+.container .skills {
+  width: 100%;
+  font-family: "Anonymous Pro", monospace;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container .skills_container .skill {
+  width: 30%;
+  float: left;
+  border: 3px solid #ffe840;
+  box-sizing: border-box;
+  color: #ffe840;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.container .skills .skills_container .skill.middle {
+  margin: 0 5%;
+}
+
+.container .skills .skills_container .skill img {
+  display: block;
+  height: 200px;
+  margin: 0 auto 20px auto;
+}
+
+.container .skills .skills_container .skill .middle img {
+  display: block;
+  height: 200px;
+  margin: 0 auto 20px auto;
+}
+
+.skills .section_title {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 50px;
+  color: #fce762;
+}
+
+.skills .skills_container .skill {
+  width: 30%;
+  float: left;
+  border: 3px solid #ffe840;
+  box-sizing: border-box;
+  color: #ffe840;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.container .projects {
+  width: 100%;
+  padding: 1% 0;
+  font-family: "Anonymous Pro", monospace;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.project_container .project1 {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  color: #ffe840;
+  text-align: center;
+  padding-right: 1%;
+}
+
+.project_container .project2 {
+  width: 50%;
+  float: left;
+  padding-left: 1%;
+  box-sizing: border-box;
+  color: #ffe840;
+  text-align: center;
+  font-size: 18px;
+}
+
+.project_container img {
+  display: block;
+  width: 100%;
+}
+
+.projects .section_title {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 50px;
+  color: #fce762;
+}
+
+.container .contact .left {
+  float: left;
+  width: 50%;
+}
+
+.container .contact .right {
+  float: right;
+  width: 50%;
+}
+
+.container .contact {
+  width: 100%;
+  padding: 25% 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container .contact .title_contact {
+  font-family: "Anonymous Pro", monospace;
+  color: #fce762;
+  font-size: 50px;
+}
+
+.container .contact .Subtitle1 {
+  margin-left: -10px;
+  color: #fce762;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 40px;
+}
+.container .contact .txt {
+  font-size: 30px;
+  margin-left: -10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-right: 5%;
+}
+
+button {
+  border: 3px solid #fce762;
+  font-size: 20px;
+  color: #fce762;
+  background-color: #121212;
+  width: 300px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.container .contact .Subtitle {
+  font-size: 26px;
+  margin-left: -10px;
+  color: #fce762;
+  font-family: "Anonymous Pro", monospace;
+}
+.social i {
+  margin-left: 70px;
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fce762;
+}
+
+button:hover {
+  border: 3px solid #fce762;
+  font-size: 20px;
+  color: #121212;
+  background-color: #fce762;
+  width: 300px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.hero a {
+  text-decoration: none;
+  color: #fce762;
+}
+
+/* Laptop screen */
+@media screen and (max-width: 1600px) {
+  .logo {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: -20px;
+  }
+  .container {
+    max-width: 1000px;
+  }
+  .hero .container {
+    height: 45vh;
+  }
+  .hero .container .left {
+    padding-top: 3%;
+  }
+
+  .hero .container .left .name {
+    font-size: 50px;
+    padding-left: 10%;
+  }
+
+  .hero .container .left .last {
+    font-size: 50px;
+  }
+
+  .hero .container .right img {
+    height: 400px;
+  }
+
+  .div .find_out {
+    font-size: 20px;
+    margin-top: 12%;
+  }
+
+  .line {
+    margin: 0;
+  }
+
+  .container .aboutme .title_aboutme {
+    font-size: 40px;
+  }
+
+  .container .aboutme .text {
+    font-size: 26px;
+  }
+
+  .container .aboutme .Subtitle1 {
+    font-size: 30px;
+  }
+
+  .container .aboutme .txt {
+    font-size: 26px;
+  }
+
+  .container .aboutme .Subtitle {
+    font-size: 30px;
+  }
+  .find_out a:hover {
+    font-size: 20px;
+  }
+  .skills .section_title {
+    font-size: 40px;
+  }
+
+  .container .skills_container .skill {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .project_container img {
+    width: auto;
+    margin-bottom: 1%;
+    height: 270px;
+  }
+
+  .projects .section_title {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 40px;
+    color: #fce762;
+  }
+  .project_container .project2 {
+    padding-left: 0;
+  }
+  .project_container .project1 {
+    padding-left: 0;
+  }
+
+  .container .contact .title_contact {
+    font-size: 40px;
+  }
+  .container .contact .Subtitle1 {
+    font-size: 30px;
+  }
+  .container .contact .txt {
+    font-size: 26px;
+  }
+  button {
+    width: 250px;
+    height: 70px;
+  }
+  button:hover {
+    text-align: center;
+    border: 3px solid #fce762;
+    font-size: 20px;
+    color: #121212;
+    background-color: #fce762;
+    width: 250px;
+    height: 70px;
+  }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+  .container {
+    max-width: 312px;
+  }
+
+  .hero {
+    margin-top: -40px;
+  }
+  .logo {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .hero .container .left .name {
+    font-size: 40px;
+    margin-top: 10%;
+  }
+
+  .hero .container .left .last {
+    font-size: 40px;
+  }
+
+  .hero .container .left {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+  }
+  .hero .container .right {
+    float: none;
+    width: 100%;
+  }
+  .hero .container .left .last {
+    padding-left: 10%;
+  }
+
+  .hero .container .left .title {
+    font-size: 30px;
+  }
+  .hero .container .right img {
+    width: 100%;
+    height: 260px;
+    margin-top: 10%;
+  }
+  .div .find_out {
+    margin-top: 80%;
+    color: #fce762;
+  }
+
+  .container .aboutme .left {
+    float: none;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .container .aboutme .right {
+    float: none;
+    width: 100%;
+  }
+
+  .aboutme br {
+    display: none;
+  }
+  .container .aboutme .title_aboutme {
+    font-size: 30px;
+  }
+  .container .aboutme .text {
+    font-size: 20px;
+    margin-bottom: 3%;
+  }
+
+  .container .aboutme .Subtitle1 {
+    font-size: 28px;
+  }
+
+  .container .aboutme .txt {
+    font-size: 20px;
+    width: 312px;
+  }
+  .skills br {
+    display: none;
+  }
+
+  .container .skills_container .skill {
+    width: 100%;
+    height: 200px;
+    float: none;
+    border: 3px solid #ffe840;
+    box-sizing: border-box;
+    color: #ffe840;
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+    margin-left: -10px;
+  }
+  .container .skills .skills_container .skill.middle {
+    margin: 2% 0;
+    margin-left: -10px;
+  }
+  .container .skills .skills_container .skill img {
+    display: block;
+    height: 120px;
+    margin: 20px auto 20px auto;
+  }
+  .skills .section_title {
+    font-size: 30px;
+  }
+
+  .container .projects {
+    width: 100%;
+    padding: 0;
+  }
+  .container .projects br {
+    display: none;
+  }
+  .project_container .project1 {
+    width: 100%;
+    float: none;
+    padding-left: 10%;
+    margin-bottom: 3%;
+  }
+  /* .contact .projects .project_container .project2 {
+    display: none;
+  } */
+
+  .project_container .project2 {
+    width: 100%;
+    float: none;
+    padding-left: 10%;
+    margin-bottom: 3%;
+  }
+  .project_container img {
+    text-align: center;
+    display: block;
+    width: auto;
+    height: 150px;
+  }
+  .projects .section_title {
+    font-size: 30px;
+  }
+
+  .container .contact .left {
+    float: none;
+    width: 100%;
+  }
+  .container .contact .right {
+    float: none;
+    width: 100%;
+    margin-top: 10%;
+  }
+  .container .contact .title_contact {
+    font-size: 30px;
+  }
+
+  .container .contact .Subtitle1 {
+    font-size: 28px;
+  }
+
+  .container .contact .txt {
+    font-size: 20px;
+  }
+
+  .social i {
+    margin-left: 20px;
+    margin-top: 5%;
+    padding: 30px;
+    font-size: 30px;
+  }
+
+  button {
+    text-align: center;
+    border: 3px solid #fce762;
+    font-size: 20px;
+    color: #fce762;
+    background-color: #121212;
+    width: 300px;
+    height: 60px;
+    margin-left: -30px;
+  }
+
+  button:hover {
+    display: none;
+  }
+}
+
+/* Tablet screen */
+@media screen and (max-width: 770px) {
+  .logo {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -20px;
+  }
+  .nav {
+    display: none;
+  }
+  .container {
+    max-width: 700px;
+  }
+  .hero .container {
+    height: 45vh;
+  }
+  .hero .container .left {
+    padding-top: 3%;
+  }
+
+  .hero .container .left .name {
+    font-size: 50px;
+    padding-left: 10%;
+  }
+
+  .hero .container .left .last {
+    font-size: 50px;
+  }
+
+  .hero .container .right img {
+    height: 400px;
+  }
+
+  .div .find_out {
+    font-size: 20px;
+    margin-top: 12%;
+  }
+
+  .line {
+    margin: 0;
+  }
+
+  .container .aboutme .title_aboutme {
+    font-size: 40px;
+  }
+
+  .container .aboutme .text {
+    font-size: 26px;
+  }
+
+  .container .aboutme .Subtitle1 {
+    font-size: 30px;
+  }
+
+  .container .aboutme .txt {
+    font-size: 26px;
+  }
+
+  .container .aboutme .Subtitle {
+    font-size: 30px;
+  }
+  .find_out a:hover {
+    font-size: 20px;
+  }
+  .skills .section_title {
+    font-size: 40px;
+  }
+
+  .container .skills .skills_container .skill img {
+    display: block;
+    height: 150px;
+    margin: 20px auto 20px auto;
+  }
+
+  .container .skills_container .skill {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .project_container img {
+    width: auto;
+    margin-bottom: 1%;
+    height: 200px;
+  }
+
+  .projects .section_title {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 40px;
+    color: #fce762;
+  }
+  .project_container .project2 {
+    padding-left: 0;
+  }
+  .project_container .project1 {
+    padding-left: 0;
+  }
+
+  .container .contact .title_contact {
+    font-size: 40px;
+  }
+  .container .contact .Subtitle1 {
+    font-size: 30px;
+  }
+  .container .contact .txt {
+    font-size: 26px;
+  }
+  button {
+    width: 250px;
+    height: 70px;
+  }
+  .social i {
+    margin-left: 90px;
+    margin-bottom: 20%;
+    font-size: 40px;
+  }
+}
